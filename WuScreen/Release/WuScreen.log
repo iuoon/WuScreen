@@ -1,0 +1,22 @@
+﻿生成启动时间为 2018/3/11 10:10:14。
+     1>项目“F:\Project\WuScreen\WuScreen\WuScreen.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Soft\VS2015\VC\bin\CL.exe /c /IF:\Downloads\duilib\DuiLib /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\WuScreen.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt CMainWnd.cpp
+         CMainWnd.cpp
+     1>f:\downloads\duilib\duilib\Core/UIManager.h(45): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+       Link:
+         F:\Soft\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Project\WuScreen\Release\WuScreen.exe" /INCREMENTAL:NO /NOLOGO DuiLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Project\WuScreen\Release\WuScreen.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Project\WuScreen\Release\WuScreen.lib" /MACHINE:X86 /SAFESEH Release\WuScreen.res
+         Release\CMainWnd.obj
+         Release\stdafx.obj
+         Release\WuScreen.obj
+         正在生成代码
+         1 of 278 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         WuScreen.vcxproj -> F:\Project\WuScreen\Release\WuScreen.exe
+     1>已完成生成项目“F:\Project\WuScreen\WuScreen\WuScreen.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:04.84

@@ -1,0 +1,15 @@
+#pragma once
+
+
+#include "resource.h"
+#include <iostream> 
+
+using namespace std;
+
+//¿ªÊ¼½ØÆÁ×ø±êµã
+extern  tagPOINT ps;
+//½ØÆÁÖÕµã
+extern  tagPOINT pe;
+//½ØÆÁ×´Ì¬
+extern BOOL is_up;
+

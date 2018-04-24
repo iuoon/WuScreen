@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window  caption="0,0,0,30" mininfo="200,360" size=" 480,320 ">
+  <Font name="录屏界的黑科技" size="18" bold="false" italic="true" />
+  <VerticalLayout bkimage="image\bg.png" >
+    <!-- 标题栏区 -->
+    <HorizontalLayout height="32" bkcolor="#FFFFFFDC">
+      <VerticalLayout>
+        <Label text="录屏界的黑科技" font="0" float="true" pos="24,8,0,0" width="500" height="18" textpadding="2,0,2,0" textcolor="#000000" disabledtextcolor="#000000" align="wrap" />
+        <Control float="true" pos="2,5,0,0" width="24" height="24" bkimage="image\logo.png" />
+      </VerticalLayout>
+      <VerticalLayout width="77">
+        <Button name="minbtn"   tooltip="最小化" float="true" pos="0,8,20,22"  width="23" normalimage=" file='image\min.png' " hotimage=" file='image\minfocus.png' " focusedimage=" file='image\min.png' " pushedimage=" file='image\minfocus.png' "/>       
+        <Button name="closebtn" tooltip="关闭"   float="true" pos="44,8,20,24" width="23"  normalimage=" file='image\quit.png' " hotimage=" file='image\quitfocus.png' " focusedimage=" file='image\quit.png' " pushedimage=" file='image\quitfocus.png' "/>
+      </VerticalLayout>
+    </HorizontalLayout>
+    <HorizontalLayout>
+      <Button name="btStartLP" text="开始录屏" float="true" pos="22,64,0,0" width="102" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center"
+                            normalimage="file='image\button2.png'"
+                            hotimage="file='image\button3.png'"
+                            pushedimage="file='image\button2.png'"
+                            focusedimage="file='image\button2.png'"
+            />
+      <Button name="btStopLP" text="停止录屏" float="true" pos="134,64,0,0" width="102" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center"
+                            normalimage="file='image\button2.png'"
+                            hotimage="file='image\button3.png'"
+                            pushedimage="file='image\button2.png'"
+                            focusedimage="file='image\button2.png'"
+            />
+      <Button name="btPlayLP" text="播放录屏" float="true" pos="22,104,0,0" width="102" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center"
+                            normalimage="file='image\button2.png'"
+                            hotimage="file='image\button3.png'"
+                            pushedimage="file='image\button2.png'"
+                            focusedimage="file='image\button2.png'"
+            />
+      <Button name="btClearLP" text="清除录屏" float="true" pos="134,104,0,0" width="102" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center"
+                            normalimage="file='image\button2.png'"
+                            hotimage="file='image\button3.png'"
+                            pushedimage="file='image\button2.png'"
+                            focusedimage="file='image\button2.png'"
+            />
+    </HorizontalLayout>
+  </VerticalLayout>
+</Window>
+
